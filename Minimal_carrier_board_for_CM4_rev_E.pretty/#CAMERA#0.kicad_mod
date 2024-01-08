@@ -1,0 +1,61 @@
+(footprint "#CAMERA#0" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 086f6cc0-829c-4fd2-ad60-f1c030dc245b)
+  )
+  (fp_text value "" (at 0 0) (layer "F.Fab")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp eded75ea-d3ee-4f2b-8913-e2e6a2c985cf)
+  )
+  (fp_poly
+    (pts
+      (xy -2.126206 -0.123693)
+      (xy -2.055 0.028891)
+      (xy -2.055 0.085)
+      (xy -2.235902 0.085)
+      (xy -2.22482 0.018504)
+      (xy -2.152359 -0.136769)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp 8f4154ae-f675-4495-b3da-ada808ddd7b3))
+  (fp_poly
+    (pts
+      (xy 3.234371 -0.112458)
+      (xy 3.305553 0.040075)
+      (xy 3.28309 0.085)
+      (xy 3.102417 0.085)
+      (xy 3.135436 0.007957)
+      (xy 3.209229 -0.150171)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp d4465fdd-f41e-47db-ab14-1f470dfa3ffa))
+  (fp_poly
+    (pts
+      (xy 2.042796 -0.304455)
+      (xy 2.094618 -0.242269)
+      (xy 2.1153 -0.149198)
+      (xy 2.073665 -0.076335)
+      (xy 2.001612 -0.035163)
+      (xy 1.920311 -0.025)
+      (xy 1.827929 -0.025)
+      (xy 1.755 -0.097929)
+      (xy 1.755 -0.26118)
+      (xy 1.78691 -0.325)
+      (xy 1.960616 -0.325)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp 91453ae6-ce44-4a79-bfa7-3536157a3002))
+  (fp_poly
+    (pts
+      (xy 4.433385 -0.855)
+      (xy 4.455241 -0.800359)
+      (xy 4.04391 0.855)
+      (xy -4.012676 0.855)
+      (xy -4.054641 0.792053)
+      (xy -4.444851 -0.768787)
+      (xy -4.466404 -0.855)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp 50d2b51b-6079-4637-8f6c-573d7c23341a))
+)

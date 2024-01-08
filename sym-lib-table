@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Minimal_carrier_board_for_CM4_rev_E-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Minimal_carrier_board_for_CM4_rev_E-eagle-import.kicad_sym")(options "")(descr ""))
+)
