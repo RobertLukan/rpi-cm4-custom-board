@@ -9,7 +9,10 @@ In general, I am quite happy with the setup. JLCPCB manufactured and assembled m
 I also created 3D-printed housing. It is my first 3d design of this type/scale, but it works.
 
 In order to use both cameras, config.txt file has to include both overlays as defined below, for my two cameras:
+
 dtparam=i2c_arm=on
+
 dtoverlay=imx708,cam0
+
 dtoverlay=imx477,cam1
 
