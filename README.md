@@ -18,9 +18,11 @@ dtoverlay=imx708,cam0
 
 dtoverlay=imx477,cam1
 
-The majority of the connectors were assembled by JLCPCB, I have included the production directory where all the details are attached. The positions of parts are not 100% aligned, so make sure if you are asking JLCPCB to assemble parts to align them correctly. It is very important to order the correct camera connector: https://www.digikey.at/en/products/detail/amphenol-cs-fci/SFW15R-1STAE1LF/4270877
+The majority of the connectors were assembled by JLCPCB(without I2C and camera connectors - not available at that time), I have included the production directory where all the details are attached. The positions of parts are not 100% aligned, so make sure if you are asking JLCPCB to assemble parts to align them correctly. It is very important to order the correct camera connector: https://www.digikey.at/en/products/detail/amphenol-cs-fci/SFW15R-1STAE1LF/4270877
 
 I made several design decisions that suited my needs, such as different GPIO header connector, and 4-pin Groove connectors for UART and I2C, so they might not be suitable for your needs.
 
-
+License:
+Please feel free to use the design. Released under the following license: 
+https://ohwr.org/cern_ohl_p_v2.txt
 
