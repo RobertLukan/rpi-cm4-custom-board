@@ -22,6 +22,8 @@ The majority of the connectors were assembled by JLCPCB(without I2C and camera c
 
 I made several design decisions that suited my needs, such as different GPIO header connector, and 4-pin Groove connectors for UART and I2C, so they might not be suitable for your needs.
 
+One important detail, I am powering this board with the Raspberry Pi power supply. Other power supplies with USB C connector might not work as RPI requires quite some power and I would need to implement USB PD.
+
 License:
 Please feel free to use the design. Released under the following license: 
 https://ohwr.org/cern_ohl_p_v2.txt
