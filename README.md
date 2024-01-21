@@ -24,6 +24,12 @@ I made several design decisions that suited my needs, such as different GPIO hea
 
 One important detail, I am powering this board with the Raspberry Pi power supply. Other power supplies with USB C connector might not work as RPI requires quite some power and I would need to implement USB PD.
 
+Update:
+I needed power(5V) for an external USB device. I knew that I could connect a powered USB docking station(hub), however, that requires yet another power supply. As I just needed to power the USB microphone, that was an overkill. I looked at my diagram and I noticed that I can take 5V from GPIO and connect one of the pins at the OTG jumper(as shown below). An important detail is that the track is not designed to carry a lot of current, so be reasonable. 
+
+![Uploading Screenshot 2024-01-21 at 12.54.01.png…]()
+
+
 License:
 Please feel free to use the design. Released under the following license: 
 https://ohwr.org/cern_ohl_p_v2.txt
