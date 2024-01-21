@@ -27,7 +27,7 @@ One important detail, I am powering this board with the Raspberry Pi power suppl
 Update:
 I needed power(5V) for an external USB device. I knew that I could connect a powered USB docking station(hub), however, that requires yet another power supply. As I just needed to power the USB microphone, that was an overkill. I looked at my diagram and I noticed that I can take 5V from GPIO and connect one of the pins at the OTG jumper(as shown below). An important detail is that the track is not designed to carry a lot of current, so be reasonable. 
 
-![Uploading Screenshot 2024-01-21 at 12.54.01.png…]()
+<img width="615" alt="Screenshot 2024-01-21 at 12 54 01" src="https://github.com/RobertLukan/rpi-cm4-custom-board/assets/15019985/78a3a4ae-f855-410a-9d0c-685198d1b0c8">
 
 
 License:
