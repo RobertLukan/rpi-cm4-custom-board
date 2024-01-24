@@ -6,7 +6,7 @@ I have added also two jumpers that allow disabling wireless and Bluetooth. I hav
 
 In general, I am quite happy with the setup. JLCPCB manufactured and assembled most of the parts. However, one board did not have Hirose connectors soldered properly, I have received a coupon. I have not touched the spacing for Hirose connectors, but I found it may be slightly off. It is hard to connect RPI for the first time. But I don't want to modify it as it has been working for several weeks.
 
-USB connector can be used(not only for flashing the CM), there is a dedicated jumper(OTG) for thir purpose. It is just USB2.0 and it is not delivering any power. I have tested powered USB hub/docking station and it is working fine. In this way even Ethernet connection can be used (again being limited to USB2.0)
+USB connector can be used to connect external devices. To flash a CM the dedicated jumper(OTG) needs to be connected . It is just USB2.0 and it is not delivering any power. I have tested powered USB hub/docking station and it is working fine. In this way even Ethernet connection can be used (again being limited to USB2.0)
 
 I also created 3D-printed housing. It is my first 3d design of this type/scale, but it works. It does not have cutouts for HDMI and USB2.0 as I dont need them.
 
